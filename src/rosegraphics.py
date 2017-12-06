@@ -714,6 +714,7 @@ class _ShapeWithCenter(_Shape):
         super().__init__(method_for_drawing)
         self.center = center.clone()
 
+
     def move_by(self, dx, dy):
         """
         Moves this _Shape to the right by dx and down by dy.
